@@ -1,0 +1,5 @@
+<%= form_for(@email_form) do |f| %>
+  <%= f.label :email %>
+  <%= f.text_field :email, placeholder: "Email address" %>
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
