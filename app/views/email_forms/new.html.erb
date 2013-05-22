@@ -1,5 +1,7 @@
+<% provide(:title, 'Home') %>
+<h1>Make your own delicious list</h1>
+<h3>Enter your email and we'll let you know when you can sign up</h3>
 <%= form_for(@email_form) do |f| %>
-  <%= f.label :email %>
   <%= f.text_field :email, placeholder: "Email address" %>
   <%= f.submit "Submit", class: "btn btn-primary" %>
 <% end %>
