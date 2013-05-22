@@ -1,7 +1,15 @@
 <% provide(:title, 'Home') %>
+<div id="movie">
+	<iframe src="http://player.vimeo.com/video/12686524?color=ffffff" width="800" height="530" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<div id="logoimg">
+<%= image_tag("dango_icon.png") %>
+</div>
+<div>
 <h1>Make your own delicious list</h1>
-<h3>Enter your email and we'll let you know when you can sign up</h3>
+<p>Enter your email and we'll let you know when you can sign up</p>
 <%= form_for(@email_form) do |f| %>
   <%= f.text_field :email, placeholder: "Email address" %>
   <%= f.submit "Submit", class: "btn btn-primary" %>
 <% end %>
+</div>

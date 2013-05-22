@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 section {
@@ -24,4 +24,34 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+/* header */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+/* movie */
+
+#movie {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#logoimg {
+	float: left;
+	padding-right: 10px;
 }
