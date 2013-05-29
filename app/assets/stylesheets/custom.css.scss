@@ -1,1 +1,25 @@
 @import "bootstrap";
+
+#header {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	background: url('../assets/header.png') no-repeat;
+}
+#video {
+	width: 100%;
+	height: 600px;
+	background: url("../assets/video_bg.png") repeat-x;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 1em;
+	border-top: 1px solid #999;
+}
