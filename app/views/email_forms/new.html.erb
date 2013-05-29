@@ -1,15 +1,11 @@
 <% provide(:title, 'Home') %>
-<div id="video">
-	<iframe src="http://player.vimeo.com/video/12686524?color=ffffff" width="800" height="530" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-<%= image_tag("dango_icon.png") %>
-
-<h1>Make your own delicious list</h1>
-<h2>You don't need rates and comments for finding delicous foods. Pictures is enough.</h2>
-<p>Enter your email and we'll let you know when you can sign up</p>
-<div class="input-append">
-<%= form_for(@email_form) do |f| %>
-  <%= f.text_field :email, placeholder: "Email address" %>
-  <%= f.submit "Submit", class: "btn btn-primary" %>
-<% end %>
-</div>
+	<h1>Foods Association</h1>
+	<h2>Foods Association(이하 FA)는 General Apps에서 운영하는 맛집 메일링 리스트 서비스입니다. 맛집을 알거나 맛을 아는 사람은 누구나 함께 할 수 있습니다.</h2>
+	<p>FA의 메일링 리스트에 참여하고 싶으신 분은 아래 양식에 이메일을 입력해 주세요.</p>
+	<div class="input-append">
+		<%= form_for(@email_form) do |f| %>
+			<%= render 'shared/error_messages' %>
+		  <%= f.text_field :email, placeholder: "Email address" %>
+		  <%= f.submit "Submit", class: "btn btn-primary" %>
+		<% end %>
+	</div>

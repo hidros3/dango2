@@ -1,0 +1,5 @@
+<% if @email_form.errors.any? %>
+		<% @email_form.errors.full_messages.each do |msg| %>
+			<%= msg %>
+		<% end %>
+<% end %>

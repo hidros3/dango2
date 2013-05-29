@@ -1,2 +1,6 @@
-<h1>Thanks you</h1>
-<%= link_to "Home", root_path, class: "button" %>
+<% provide(:title,'Done') %>
+<div class="alert alert-info">
+	<p>등록해주셔서 감사합니다.</p>
+	<p>보내주신 이메일은 수동으로 메일링 리스트에 입력하고 있습니다. 길게는 하루만 기다리시면 등록이 완료됩니다.</p>
+</div>
+<%= link_to "Home으로 이동", root_path, class: "btn btn-success" %>

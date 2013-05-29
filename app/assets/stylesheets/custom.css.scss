@@ -1,17 +1,35 @@
 @import "bootstrap";
 
-#header {
-	width: 960px;
-	height: 80px;
-	margin: 0 auto;
-	background: url('../assets/header.png') no-repeat;
+/* universal */
+
+html {
+  overflow-y: scroll;
 }
-#video {
-	width: 100%;
-	height: 600px;
-	background: url("../assets/video_bg.png") repeat-x;
-	margin: 0 auto;
-	text-align: center;
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-left: auto;
+  font-size: 1.7em;
+  color: #555;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #555;
+  text-decoration: none;
 }
 
 /* footer */
@@ -22,4 +40,20 @@ footer {
 	text-align: center;
 	font-size: 1em;
 	border-top: 1px solid #999;
+}
+
+/* typography */
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  color: #999;
 }
