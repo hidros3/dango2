@@ -1,11 +1,11 @@
 Dango::Application.routes.draw do
   resources :email_forms
 
-  # get "email_forms/new"
+  get "email_forms/new"
 
-  # get "email_forms/create"
+  get "email_forms/create"
   
-  root :to => 'email_forms#new'
+  #root :to => 'email_forms#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

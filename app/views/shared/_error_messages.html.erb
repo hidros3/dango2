@@ -1,5 +1,10 @@
 <% if @email_form.errors.any? %>
+	<div class="alert alert-error">
+		<p>앗! 문제가 있습니다.</p>
 		<% @email_form.errors.full_messages.each do |msg| %>
-			<%= msg %>
+			<ul>
+				<li><%= msg %></li>
+			</ul>
 		<% end %>
+	</div>
 <% end %>
