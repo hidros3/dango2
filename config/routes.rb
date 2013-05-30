@@ -5,6 +5,8 @@ Dango::Application.routes.draw do
 
   get "email_forms/create"
   
+  match "/home", to: "email_forms#new"
+
   #root :to => 'email_forms#new'
 
   # The priority is based upon order of creation:
