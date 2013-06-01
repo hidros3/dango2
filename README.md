@@ -1,7 +1,9 @@
 # Welcome to Foods Association
-## Foods Association by General Apps
+
+Foods Association by General Apps
 
 **This Pages work for collecting users' email**
+
 If new email is submitted, the app will email you for the notification.
 
 This is very simple app.
