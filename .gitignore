@@ -16,3 +16,10 @@
 
 #Ignore config
 /config/environments/*.rb
+
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
