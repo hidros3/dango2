@@ -70,8 +70,8 @@ Dango::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => 'baci.lindsaar.net',
-    :user_name            => '',
-    :password             => '',
+    :user_name            => 'taekjoo@gmail.com',
+    :password             => 'sonic69@GOO',
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
 end
