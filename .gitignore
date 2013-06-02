@@ -15,4 +15,4 @@
 /tmp
 
 #Ignore config
-/config/*.rb
+/config/environments/*.rb
