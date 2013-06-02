@@ -1,7 +1,10 @@
 <div class="navbar">
 	<div class="navbar-inner">
-		<div class="container">
-			<%= link_to "Foods Association", home_path, id: "logo" %>
-		</div>
+		<%= link_to "General Apps", root_path, class: "brand" %>
+		<ul class="nav">
+			<li class="divider-vertical"></li>
+			<li><%= link_to "Home", root_path %></li>
+			<li><%= link_to "Foods Association", new_path %></li>
+		</ul>
 	</div>
 </div>
