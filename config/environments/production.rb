@@ -71,7 +71,7 @@ Dango::Application.configure do
     :port                 => 587,
     :domain               => 'baci.lindsaar.net',
     :user_name            => 'taekjoo@gmail.com',
-    :password             => 'sonic69@GOO',
+    :password             => '',
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
 end
