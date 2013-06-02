@@ -15,7 +15,7 @@
 /tmp
 
 #Ignore config
-/config/environments/*.rb
+/config/environments/production.rb
 
 doc/
 *.swp
